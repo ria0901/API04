@@ -1,0 +1,75 @@
+body,
+ p {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* bagian header */
+header{
+    height: 65px;
+    width: 100%;
+    background-color: #152647;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    font-family: gill-sans-regular;
+}
+
+.header-logo a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.header-list a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.header-logo{
+    float: left;
+    font-size: 32px;
+}
+
+.header-list{
+    float: left;
+    font-size: 15px;
+}
+
+.header-search{
+    float:left;
+    padding-top: 25px;
+    padding-left: 380px;
+    width: 100px;
+    height: 100px;
+}
+
+.header-shop-img{
+    float:right;
+    font-size: 15px;
+    width: 40px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
