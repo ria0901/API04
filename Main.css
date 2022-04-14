@@ -1,30 +1,30 @@
 .header-shop-img{
     float:right;
     font-size: 15px;
-    width: 40px;
+    width: 50px;
     padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;
 }
 
 .container {
     width: 100%;
     padding-top: 5px;
-    background-color:bisque;
     border-radius: 2vh;
     border-width: 2%;
+    border-style: groove;
 }
 
 .row h2 {
     background-color: gray;
-}
-
-#spek p{
-    margin: 5;
-    padding: 0;
+    width: 100%;
 }
 
 .info p {
-    padding: 0;
     margin: 0;
+    margin-left: 70px;
+}
+
+.row-merk {
+    margin-left: 50px;
+    padding: 0;
 }
