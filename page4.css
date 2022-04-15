@@ -96,13 +96,25 @@ header{
 
 }
 
-.card-img-top{
-    width: 30px;
+.card{
+    padding-right: 20px;
+    width:8rem;
 }
 
-/* .card-deck{
-    display: grid;
-    grid-template-rows: repeat(3,1fr);
-    grid-column: span 4;
-    min-width:100px;
-} */
+.card-text{
+    color:red;
+}
+
+.card .row {
+    text-align: end;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:red;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
