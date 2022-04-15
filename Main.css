@@ -12,16 +12,19 @@
     border-radius: 2vh;
     border-width: 2%;
     border-style: groove;
-    margin-top: 15px;
+    margin-top: 60px;
 }
 
 .row h2 {
-    background-color: gray;
-    width: 100%;
+    background-color: #F2F2F2;
+    width: 95%;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 .info p {
     margin: 0;
-    margin-left: 70px;
+    margin-left: 25px;
 }
 
