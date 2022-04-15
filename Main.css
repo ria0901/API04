@@ -12,6 +12,7 @@
     border-radius: 2vh;
     border-width: 2%;
     border-style: groove;
+    margin-top: 15px;
 }
 
 .row h2 {
@@ -24,7 +25,3 @@
     margin-left: 70px;
 }
 
-.row-merk {
-    margin-left: 50px;
-    padding: 0;
-}
