@@ -22,7 +22,7 @@ li{
     margin: 0 auto;
 }
 
-
+/* bagian header */
 header{
     height: 65px;
     width: 100%;
@@ -61,8 +61,9 @@ header{
 
 .header-search{
     float:left;
-    padding-top: 25px;
+    padding-top: 18px;
     padding-left: 380px;
+    padding-right: 200px;
     width: 100px;
     height: 100px;
 }
@@ -73,12 +74,14 @@ header{
     width: 40px;
     padding-right: 15px;
     padding-top: 20px;
+    padding-right: 15px;
 }
 
 .content{
     margin-bottom: 50px;
     margin-top: 80px;
     padding-left: 50px;
+    padding: 15px;
    
 }
 
@@ -89,6 +92,7 @@ header{
 .content h6 {
     text-align: end;
     color: red;
+    padding-right: 50px;
 }
 
 .bi-star-fill{
@@ -96,10 +100,6 @@ header{
 
 }
 
-.card{
-    padding-right: 20px;
-    width:8rem;
-}
 
 .card-text{
     color:red;
@@ -117,4 +117,21 @@ a:hover{
 a {
     color: red;
     text-decoration: none;
+}
+
+@media screen and (min-width: 550px) {
+    .card {
+        grid-column: span 4;
+
+    }
+}
+
+    @media screen and (min-width: 760px) {
+
+    .card {
+    margin: 10px 20px 10px 10px;
+    }
+
+    @media screen and (min-width: 960px) {
+    }
 }
