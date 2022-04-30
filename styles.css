@@ -1,0 +1,45 @@
+.header-shop-img{
+    float:right;
+    font-size: 15px;
+    width: 50px;
+    padding-right: 15px;
+    padding-top: 2px;
+}
+
+.container {
+    width: 100%;
+    padding-top: 20px;
+    border-radius: 2vh;
+    border-width: 2%;
+    border-style: groove;
+    margin-top: 60px;
+}
+
+.contain {
+    width: 100%;
+    padding-top: 20px;
+    border-radius: 2vh;
+    border-width: 2%;
+    border-style: groove;
+    margin-top: 5px;
+}
+
+.row h2 {
+    background-color: #FFFFFF;
+    width: 95%;
+    margin-left: 25px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.ulasan p {
+    margin: 0;
+    margin-left: 25px;
+}
+
+.button {
+    border-radius: 1vh;
+
+.checked {
+    color: orange;
+}
