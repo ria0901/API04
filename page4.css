@@ -1,0 +1,137 @@
+body,
+ p {
+  margin: 0;
+  padding: 0;
+   font-family: roboto,sans-serif;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* bagian header */
+header{
+    height: 65px;
+    width: 100%;
+    background-color: #152647;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    font-family: gill-sans-regular;
+}
+
+.header-logo a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.header-list a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.header-logo{
+    float: left;
+    font-size: 32px;
+}
+
+.header-list{
+    float: left;
+    font-size: 15px;
+}
+
+.header-search{
+    float:left;
+    padding-top: 18px;
+    padding-left: 380px;
+    padding-right: 200px;
+    width: 100px;
+    height: 100px;
+}
+
+.header-shop-img{
+    float:right;
+    font-size: 15px;
+    width: 40px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+.content{
+    margin-bottom: 50px;
+    margin-top: 80px;
+    padding-left: 50px;
+    padding: 15px;
+   
+}
+
+.content h1{
+    padding-left: 10px;
+}
+
+.content h6 {
+    text-align: end;
+    color: red;
+    padding-right: 50px;
+}
+
+.bi-star-fill{
+    color:#FFCE31;
+
+}
+
+
+.card-text{
+    color:red;
+}
+
+.card .row {
+    text-align: end;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:red;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 550px) {
+    .card {
+        grid-column: span 4;
+
+    }
+}
+
+    @media screen and (min-width: 760px) {
+
+    .card {
+    margin: 10px 20px 10px 10px;
+    }
+
+    @media screen and (min-width: 960px) {
+    }
+}
