@@ -1,0 +1,30 @@
+.header-shop-img{
+    float:right;
+    font-size: 15px;
+    width: 50px;
+    padding-right: 15px;
+    padding-top: 2px;
+}
+
+.container {
+    width: 100%;
+    padding-top: 5px;
+    border-radius: 2vh;
+    border-width: 2%;
+    border-style: groove;
+    margin-top: 60px;
+}
+
+.row h2 {
+    background-color: #F2F2F2;
+    width: 95%;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.info p {
+    margin: 0;
+    margin-left: 25px;
+}
+
